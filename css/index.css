@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*INICIO HEADER*/
+.header {
+    background-color: #8AA3A0;
+    display: flex;
+    height: 28vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo{
+    height: 100%;
+    width: auto;
+}
+/*FIN HEADER*/
+
+/*INICIO NAV*/
+.nav{
+    background-color: #CFC5BC;
+    height: 8vh;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.btn{
+    color:white;
+}
+
+/*FIN NAV*/
+
+/*INICIO MAIN INDEX*/
+.main{
+    background-color: #E6E1DB;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+}
+
+/*FIN MAIN INDEX*/
+
+/*-------------------------------------------------------------------------------------------------------------------/*
+
+/*INICIO MAIN DE PROYECTOS*/
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: space-evenly;
+}
+/*FIN MAIN DE PROYECTOS*/
+
+/*-------------------------------------------------------------------------------------------------------------------/*
+
+/*INICIO FOOTER*/
+.footer{
+    background-color: #D5DAD6;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.medios-de-contactos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icono {
+    padding-right: 20px;
+    align-items: center;
+}
+
+.profesional {
+    display: flex;
+    align-items: center;
+}
+
+.nombre {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.tel {
+    padding-left: 10px
+}
+
+.correo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email { 
+    padding-left: 20px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+/*FIN FOOTER*/
