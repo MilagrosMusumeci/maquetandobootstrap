@@ -57,7 +57,6 @@
     align-items:center;
     padding: 10px;
 }
-
 /*FIN MAIN INDEX*/
 
 /*-------------------------------------------------------------------------------------------------------------------/*
@@ -67,11 +66,46 @@
     display: flex;
     flex-direction: row;
     padding: 10px;
-    align-items: space-evenly;
 }
 /*FIN MAIN DE PROYECTOS*/
 
 /*-------------------------------------------------------------------------------------------------------------------/*
+
+/*INICIO MAIN SERVICIOS*/
+/*FIN MAIN SERVICIOS*/
+
+/*-------------------------------------------------------------------------------------------------------------------/*
+
+/*INICIO MAIN SOBRE NOSOTROS*/
+/*FIN MAIN SOBRE NOSOTROS*/
+
+/*-------------------------------------------------------------------------------------------------------------------/*
+
+/*INICIO MAIN DE CONTACTOS*/
+.main{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-formulario{
+    padding: 10px;
+    height: auto;
+    width: 40vw;
+    border: 5px solid #CFC5BC;
+    border-radius: 10px;
+}
+
+.contenedor-mapa{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+/*FIN MAIN DE CONTACTOS*/
+
 
 /*INICIO FOOTER*/
 .footer{
